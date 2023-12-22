@@ -36,7 +36,6 @@ export default class Board {
       this.#food.drawFood(this, this.#gameBoard);
     }
     this.#score.updateScore(this.#snake.snakeHead.length);
-    console.log(this.#score);
   }
 
   createGameElement(tag, className) {

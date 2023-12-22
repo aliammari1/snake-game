@@ -26,7 +26,7 @@ This project uses modern JavaScript features, including classes and private clas
 
 ## License
 
-This project is licensed under the terms of the MIT license.
+This project is licensed under the terms of the [MIT license](LICENSE).
 
 ## Contributing
 

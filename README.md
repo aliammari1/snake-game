@@ -1,16 +1,16 @@
 # Classic Snake Game
 
-This project is a modern implementation of the classic Snake Game using JavaScript. The game includes features such as a game board, a snake, food for the snake, and a scoring system.
+This project is a modern implementation of the classic Snake Game using TypeScript. The game includes features such as a game board, a snake, food for the snake, and a scoring system. The game is built with object-oriented programming principles in mind, making the code modular and easy to maintain.
 
 ## Project Structure
 
-- `board.js`: This file contains the `Board` class which handles the game board, game state, and game logic. It includes methods for starting and stopping the game, handling key presses, checking for collisions, and drawing the game elements on the board.
-- `food.js`: This file contains the `Food` class which handles the creation and placement of food on the game board.
-- `game.js`: This file contains the main game logic, including the game loop and event listeners.
-- `snake.js`: This file contains the `Snake` class which handles the snake's behavior, including movement and growth.
-- `score.js`: This file contains the `Score` class which handles the game score, including updating and displaying the score.
-- `style.css`: This file contains all the styles for the game.
-- `index.html`: This is the main HTML file that displays the game.
+- `src/board.ts`: This file contains the `Board` class which handles the game board, game state, and game logic. It includes methods for starting and stopping the game, handling key presses, checking for collisions, and drawing the game elements on the board.
+- `src/food.ts`: This file contains the `Food` class which handles the creation and placement of food on the game board.
+- `src/game.ts`: This file contains the main game logic, including the game loop and event listeners.
+- `src/snake.ts`: This file contains the `Snake` class which handles the snake's behavior, including movement and growth.
+- `src/score.ts`: This file contains the `Score` class which handles the game score, including updating and displaying the score.
+- `src/style.css`: This file contains all the styles for the game.
+- `src/index.html`: This is the main HTML file that displays the game.
 
 ## How to Play
 
@@ -22,11 +22,11 @@ This project is a modern implementation of the classic Snake Game using JavaScri
 
 ## Development
 
-This project uses modern JavaScript features, including classes and private class fields. It is organized into modules for better code organization and maintainability.
+This project uses modern TypeScript features, including classes and private class fields. It is organized into modules for better code organization and maintainability.
 
 ## License
 
-This project is licensed under the terms of the MIT license.
+This project is licensed under the terms of the [MIT license](LICENSE).
 
 ## Contributing
 

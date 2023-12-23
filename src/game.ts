@@ -1,5 +1,5 @@
 import Board from "./board.js";
 
-const game = new Board();
+const game: Board = new Board();
 
 document.addEventListener("keydown", game.handleKeyPress);

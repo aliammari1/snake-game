@@ -6,8 +6,8 @@
   "license": "Custom Commercial Use License",
   "author": "Ali Ammari",
   "devDependencies": {
-    "typescript": "^5.6.0",
-    "@types/node": "^22.0.0"
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
   },
   "scripts": {
     "build": "tsc",
